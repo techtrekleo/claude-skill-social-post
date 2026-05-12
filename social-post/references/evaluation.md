@@ -2,18 +2,29 @@
 
 本檔用於 Phase 2 發完後評估表現、以及使用者問「這篇好不好」時的判斷依據。
 
-## 🧠 FB 2026 演算法訊號權重（最重要）
+## 🧠 FB 2026 演算法訊號權重（v0.7.2 更新，2026-05 web 大數據驗證）
 
-Meta 2024-11 推「Unconnected Reach」指標。**讚幾乎無權重**，第 1 小時內的三訊號決定是否跨粉絲圈：
+Meta 2024-11 推「Unconnected Distribution」指標（**佔 feed 50%**）。讚幾乎無權重，2026 演算法已從「friends activity」轉成「**AI-driven discovery engine**」主動推薦。
 
 | 信號 | 權重 | 說明 |
 |---|---|---|
-| **分享** | **20× 讚** | 最強廣推 trigger |
-| **留言** | **5× 讚** | 次強，深度留言 > 短留言 |
-| **Dwell time** | 隱形王牌 | 「查看更多」點擊 + 圖放大 + revisit |
-| 讚 | 幾乎 0 | 絕對值無評估意義 |
+| **私訊分享**（Messenger / WhatsApp） | **最高（"essential" 標籤）** | 🆕 立刻 trigger broader distribution |
+| **儲存（Save）** | **次高** | 「revisit 信號」= 內容值得回看 |
+| **5 字以上留言** | **3× 一般留言** | 「meaningful comment」深度對話信號 |
+| **公開分享（Story / Timeline）** | 高 | 「ultimate vote of confidence」|
+| **公開分享（普通）** | ~20× 讚 | v0.6 基礎權重 |
+| **一般留言**（短句、tag、emoji）| ~5× 讚 | v0.6 基礎權重 |
+| **Dwell time / 查看更多** | 中 | 第 1 小時權重最高 |
+| 讚 | ~0 | 絕對值無評估意義 |
 
-**判斷順序**：分享 > 留言 > dwell > 讚。
+**判斷順序（2026 最新）**：私訊分享 > 儲存 > 5 字長留言 > 公開分享 > 一般留言 > dwell > 讚
+
+**第 1 小時 = 80% viral potential**（[posteverywhere 2026 / Bluehost 2026 報告](https://posteverywhere.ai/blog/how-to-go-viral-on-facebook)）：發文後 60 分鐘內的早期互動決定演算法是否啟動 broader distribution。
+
+**Hao funnel implications**：
+- 之前 R7「真 KPI 是 Line 群」對應的「留言區拉群」CTA → 應加「分享給朋友」（私訊分享）混用
+- F19 mid-viral 4 個儲存數遠超 v0.6 視為 minor 指標的權重
+- F6b 純血 hype hook 引發短留言（「+1」「拉我」）不是 5 字 + 長留言 → 演算法權重低
 
 ---
 

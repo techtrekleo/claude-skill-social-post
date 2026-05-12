@@ -1,5 +1,73 @@
 # Changelog
 
+## v0.7.2 — 2026-05-13（外部 5/12 F19 翻盤實證 + 2026 web 大數據整合）
+
+5/12 F19「FB 營利 + skill 開源」**24h 後 broke 鐵粉圈** 814 觀眾 / 29.8% 非追蹤者 → 推翻 v0.7.1 過頭結論。同時整合 2026-05 web 大數據（FB 演算法、私訊分享、Reels 加成）。
+
+### 🆕 Added — R15 私訊分享 trigger（最強 2026 信號）
+
+**2026 演算法最強信號 = 私訊分享**（Messenger / WhatsApp），比公開分享更強。立刻 trigger「essential 內容」標籤。
+
+CTA 升級庫：
+- 「分享給寫 code 的朋友 / 工作上的同事」
+- 「這篇你朋友也該看到」
+- 「丟給你那個 always asking how to use Claude 的朋友」
+
+### 🆕 Added — R16 5 字以上長留言 trigger（3× 權重）
+
+「+1」「拉我」短留言演算法權重低。Hook 設計引發開放式長留言（觀點挑戰 / 經驗請求）。
+
+### 🆕 Added — R17 Reels 策略（同日上傳 +50% 觸及）
+
+[Meta 2025-10 update](https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/)：
+- 同日上傳 Reels +50% 觸及
+- 15-30 秒最佳完成率（+45% vs 長片）
+- Reels 比 photo 觸及 +135%
+
+### 🆕 Added — R18 儲存（Save）指標重視
+
+2026 演算法權重僅次於私訊分享。明確「索取 / 自取」物件 + reusable framework + 列點 / 清單 = save trigger。
+
+### 🆕 Added — R1 校準（工業 baseline 對照）
+
+工業中位 3-5 篇 / 週，Hao 7 篇/週 = 2x 過頻 risk。修正為「每天 1 篇 OK + audience bucket 多樣化 + 每週 ≥ 2 篇非 AI 主題」。
+
+### 🆕 Added — F15 mini 公式化（5/12 F19 實證）
+
+3 段 / 5-10 min 寫作 / 純成果 hook + 工具歸功 + 零摩擦 CTA。比 F15 完整版 1700 行更易工業化複製。
+
+### 🆕 Added — F18 AIGC 作品 demo + Reels 變體
+
+跟 F6b 同日跨 audience bucket 互不衝突。15-30 秒 Reels 格式可吃 2026 演算法 +50% 加成。
+
+### 🆕 Added — Case 10：5/12 4 篇全戰績解構
+
+V3 fail / F19 broke 鐵粉圈 / F18 / F20 完整對照表。
+
+### 🆕 Added — evaluation.md 2026 演算法權重大改寫
+
+| 信號 | v0.6 | **v0.7.2** |
+|---|---|---|
+| 私訊分享 | 未列 | **🥇 最高** |
+| 儲存 | 未列 | **次高** |
+| 5 字長留言 | 一視同仁 | **3× 一般留言** |
+| 公開分享 | 20× 讚 | 不變 |
+| 讚 | 0 | 0 |
+
+### 🆕 Added — 姐妹 skill 開源
+
+[claude-skill-code-cleanup v0.1](https://github.com/Hao0321/claude-skill-code-cleanup) — 4 dimension 掃描技術債（重複 / 命名 / 模組 / 過長）。可用來 maintain social-post 自己。
+
+### Lessons learned
+
+1. **F19 = F15 mini 雛形實證 work**：3 段極簡 + 純成果 hook + 零摩擦索取 = mid-viral broke 鐵粉圈
+2. **R6 N+1 次驗證**：6h 判 fail / 24h 翻盤 mid-viral，**1-19h 數據絕對不下定論**
+3. **撤回 v0.7.1 過頭結論**：F15 5/19 可試 / 不延後 / 沒有 creator 降權
+4. **2026 演算法最強信號是私訊分享**：之前 v0.6 完全沒設計，現在 R15 補上
+5. **Hao 7 篇/週 = 工業 2x baseline**：需配 audience bucket 多樣化緩解
+
+---
+
 ## v0.7.1 — 2026-05-13（v0.7 後 1 天的硬實證修正）
 
 5/12 v0.7 R11-R14 首次實證 → **partial fail**。F6b 全綠規則但仍 plateau 在 219 觀眾 / 0 分享 / 88.7% 鐵粉鎖死。本 patch 修正 v0.7 過度樂觀的假設。

@@ -30,7 +30,11 @@
 - **Line 群 2,336 → 3,575（+1,239 人，94% 複製 Day 1 真 KPI）**
 - 月內第 5 個 F6b 但敘事意圖全新 → 推翻 v0.5「月配額硬限」假設
 
-**3 個變體 / 3 個 mega-viral / 都跨 90% 非追蹤者天花板**。這個 repo 就是 v0.7 版本，加上 14 天 / 8 篇 Hao 實戰累積 + 4 個外部 viral 範例逆向工程的 hook 強化。
+**3 個變體 / 3 個 mega-viral / 都跨 90% 非追蹤者天花板**。這個 repo 就是 v0.7.2 版本，加上 14 天 / 13 篇 Hao 實戰累積 + 5 個外部 viral 範例逆向工程 + 2026 web 大數據整合。
+
+> **姐妹 skill: [claude-skill-code-cleanup v0.1](https://github.com/Hao0321/claude-skill-code-cleanup)** — 自動掃 SKILL.md / prompt / codebase 找重複、命名漂移、可模組化、過長檔案。用來 maintain 這個 social-post skill 自己。
+
+> **v0.7.2 更新（2026-05-13）**：新增 **R15 私訊分享 trigger（2026 最強信號）/ R16 5 字長留言（3× 權重）/ R17 Reels 同日 +50% 觸及 / R18 儲存指標重視**。整合 2026-05 FB 演算法 web 大數據。新增 F15 mini 公式（5/12 F19 broke 鐵粉圈實證）+ F18 AIGC 作品 Reels 變體。Case 10 完整 5/12 4 篇對照解構。
 
 > **v0.7 更新（2026-05-12）**：逆向工程台灣 AI/Dev 圈 4 篇 viral 範例（分享率 0.34-1.09）→ 新增 R11-R14（金句密度 / 量化稀缺 / 反命題 / hook punch 詞庫） + **F14-F17 四個分享驅動公式** 補上 v0.6 純血 hype 的分享率天花板（0.21）。月內 viral 篇數從 2 → 6-7。詳見 [CHANGELOG.md](CHANGELOG.md)。
 
