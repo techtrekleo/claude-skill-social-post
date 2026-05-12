@@ -32,8 +32,12 @@
 
 **3 個變體 / 3 個 mega-viral / 都跨 90% 非追蹤者天花板**。這個 repo 就是 v0.7.2 版本，加上 14 天 / 13 篇 Hao 實戰累積 + 5 個外部 viral 範例逆向工程 + 2026 web 大數據整合。
 
-> **姐妹 skill: [claude-skill-code-cleanup v0.1](https://github.com/Hao0321/claude-skill-code-cleanup)** — 自動掃 SKILL.md / prompt / codebase 找重複、命名漂移、可模組化、過長檔案。用來 maintain 這個 social-post skill 自己。
+> **姐妹 skill: [claude-skill-code-cleanup v0.2](https://github.com/Hao0321/claude-skill-code-cleanup)** — 雙模式 / 8 dimensions：Mode A 掃 codebase 找重複/命名/模組/過長；Mode B 跑 repo audit 檢查私公版 sync / release 一致性 / cross-link / 版本漂移。用來 maintain 這個 social-post skill 自己（已抓到 v0.7.3 doc drift → 推 v0.7.4 修）。
 
+> **v0.7.4 更新（2026-05-13）**：cleanup-helper v0.2 Mode B audit 抓到 v0.7.3 doc drift → 補 CHANGELOG/README v0.7.3 entry。雙 repo audit loop 閉環。
+>
+> **v0.7.3 更新（2026-05-13）**：命名統一（規則 1-11 → 歸納 1-11 + cross-ref table）+ 歸納 10 擴展 7-case Viral 4 條件對照表。
+>
 > **v0.7.2 更新（2026-05-13）**：新增 **R15 私訊分享 trigger（2026 最強信號）/ R16 5 字長留言（3× 權重）/ R17 Reels 同日 +50% 觸及 / R18 儲存指標重視**。整合 2026-05 FB 演算法 web 大數據。新增 F15 mini 公式（5/12 F19 broke 鐵粉圈實證）+ F18 AIGC 作品 Reels 變體。Case 10 完整 5/12 4 篇對照解構。
 
 > **v0.7 更新（2026-05-12）**：逆向工程台灣 AI/Dev 圈 4 篇 viral 範例（分享率 0.34-1.09）→ 新增 R11-R14（金句密度 / 量化稀缺 / 反命題 / hook punch 詞庫） + **F14-F17 四個分享驅動公式** 補上 v0.6 純血 hype 的分享率天花板（0.21）。月內 viral 篇數從 2 → 6-7。詳見 [CHANGELOG.md](CHANGELOG.md)。

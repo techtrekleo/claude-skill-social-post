@@ -1,5 +1,58 @@
 # Changelog
 
+## v0.7.4 — 2026-05-13（doc sync patch + cleanup-helper v0.2 audit loop 閉環）
+
+由姐妹 skill [`code-cleanup-helper` v0.2 Mode B audit](https://github.com/Hao0321/claude-skill-code-cleanup) 偵測 — v0.7.3 release 後 CHANGELOG/README 漏更。完美 demo cleanup-helper v0.2 設計目的：**release ship 後 doc 自動 drift detection**。
+
+### Added — v0.7.3 entry 補寫（doc backfill）
+
+v0.7.3 內容 = naming cleanup（之前 release 但這份 CHANGELOG 漏寫 entry）：
+
+- `case_studies.md` 跨案歸納段重命名為「**歸納 [N]**」（原「規則 [N]」），避免跟 SKILL.md「R[N]」雙系統 conflict
+- 新增 cross-ref table（歸納 → SKILL.md R[N] 對應）
+- 兩系統語言上完全分離（Rules vs Inductions）
+- 歸納 10 擴展為 **7-case Viral 4 條件對照表**（含 5/12 V3 fail + 5/12 F19 broke 鐵粉圈新案例）
+
+### Added — 兩 repo audit loop 閉環
+
+姐妹 skill 升級到 v0.2（Mode A + Mode B 雙模式 / 8 dimensions）：
+- Mode A: 重複 / 命名 / 模組 / 過長（v0.1 既有）
+- **Mode B（新）**: 私公版 sync GAP / Release 一致性 / Cross-link / 版本漂移
+
+cleanup-helper v0.2 ship 後 5 分鐘就抓到 social-post v0.7.3 doc drift → 推這個 v0.7.4 補。**雙 repo meta loop closed**。
+
+### Lessons learned
+
+1. **Release shipped ≠ doc updated** — v0.7.3 commit + tag + GH release 都做了，但 CHANGELOG entry 漏寫
+2. **Audit 工具 immediate ROI** — cleanup-helper v0.2 ship 後 5 分鐘抓到 drift
+3. **雙 repo 自我修復生態** — 兩個 skill 互相 audit / 互相觸發升級
+4. **v0.8 預備**：用 cleanup-helper v0.2 Mode B 做 social-post v0.8 ship 前 audit，避免再次 drift
+
+---
+
+## v0.7.3 — 2026-05-13（命名統一）
+
+audit 抓到 v0.7.2 兩套規則命名 conflict 後的修正。
+
+### Changed
+
+- `case_studies.md` 跨案歸納段命名 規則 1-11 → **歸納 1-11**
+- 加 cross-ref table 對應 SKILL.md R[N]
+- `case_studies.md` 中其他「規則 N」殘留全清掉
+- 歸納 10 擴展為 7-case Viral 4 條件對照表
+
+### Two-system 命名分離
+
+- `SKILL.md` = **R[N]** = Rules（normative，規範規則）
+- `case_studies.md` = **歸納 [N]** = Inductions（from cases，案例歸納）
+- 兩系統互不混淆 + 互相 cross-ref
+
+### Identified by
+
+由 companion [code-cleanup-helper](https://github.com/Hao0321/claude-skill-code-cleanup) v0.1 在 v0.7.2 audit 階段抓到（雙命名 = 同源系統 reader 心智 mapping 成本高）。
+
+---
+
 ## v0.7.2 — 2026-05-13（外部 5/12 F19 翻盤實證 + 2026 web 大數據整合）
 
 5/12 F19「FB 營利 + skill 開源」**24h 後 broke 鐵粉圈** 814 觀眾 / 29.8% 非追蹤者 → 推翻 v0.7.1 過頭結論。同時整合 2026-05 web 大數據（FB 演算法、私訊分享、Reels 加成）。
