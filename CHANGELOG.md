@@ -1,5 +1,57 @@
 # Changelog
 
+## v0.8.6 — 2026-05-19（🚨 R25 鐵則：FB / Threads 貼文絕不附外部連結）
+
+使用者 5/19 lock — AI 反覆把 GitHub 連結誤加進 viral 草稿，全部撤回 + 鎖死規則。
+
+### 🚨 R25 — 鐵則
+
+**所有 Hao viral 篇都沒附連結**：
+- Day 1 / Day 6 / 5/5 三篇 FB mega-viral ✅ 沒連結
+- OiiOii F6a 系列 ✅ 沒連結
+- 25/7 三篇 Thread F19 純血 ✅ 沒連結
+- 5/12 F19「FB 營利」mid-viral ✅ 沒連結（「歡迎自行索取」純留言 trigger）
+
+**為什麼絕不附連結**：
+
+1. **FB / Thread 演算法降權外部連結** — 附連結觸及衰退 30-50%
+2. **「留言我拉你」/「歡迎索取」funnel 比連結點擊強 100x**（R7 真 KPI）
+3. **Day 1 實證連結點擊率 = 0.0097%**（7/74K）= 連結沒實際 ROI
+4. **留言區互動是 viral 引擎**，連結分流走觀眾
+5. **私訊 trigger R15** 比 click trigger 強得多
+
+### 硬規則 table
+
+| 平台 | 正文 URL | 留言區 URL | 留言區拉群 |
+|---|---|---|---|
+| FB | ❌ 絕對禁止 | ✅ 可用「精選留言」放 1 個 URL | ✅ 「沒入群留言我拉你」優先 |
+| Thread | ❌ 絕對禁止 | ⚠️ 慎用 | ✅ 「歡迎索取」優先 |
+
+### Reproductive failure 紀錄（Case 15）
+
+我反覆犯這個錯：
+- V2 5/19 FB 真 KPI 復盤草稿 → 加 GitHub 連結 ❌（5/19 撤回）
+- V7c FB F15 mini「cleanup-helper」(5/13 plan) → 加 GitHub 連結 ❌
+- 5/17 副帳號 F19「AI 取代論」→ 加 social-post GitHub 連結 ❌
+
+**根因**：F15 mini「索取 + 連結」結構偷渡進 F6b 純血段 4，破壞「沒入群留言我拉你」純 CTA pattern。
+
+### Changed
+
+- **SKILL.md R25 hard rule**（FB / Threads 正文絕不附連結）
+- **formulas.md 全公式共通鐵則**（F6b / F6a / F15 mini / F19 全部不附連結）
+- **case_studies.md Case 15**（AI 反覆犯錯紀錄 + 真實 viral pattern）
+- **生成 Mode B 草稿時必檢**：段 4 有 https:// 嗎？→ ❌ 不要發
+
+### Lessons learned
+
+1. **F15 mini「索取」CTA ≠ 附連結**：原版 5/12 F19「歡迎自行索取」是**留言索取**，不是附 URL
+2. **viral pattern = 永遠不附連結**：Day 1 / 5/5 / OiiOii / 25/7 全系列共通鐵則
+3. **連結沒 ROI**：連結點擊率 0.01% = 演算法 + 觀眾 + 真 KPI 三輸
+4. **AI 反覆犯同錯**：第 3 次了，必須 R25 hard rule + 必檢清單
+
+---
+
 ## v0.8.5 — 2026-05-18（v0.8.4 R21 撤回 — 不是衰退，是沒連發累積 momentum）
 
 使用者 5/18 澄清推翻 v0.8.4 「跨年衰退」歸因。Skill 又一次過早歸因被打臉，記錄真實 viral 機制。
