@@ -1,5 +1,48 @@
 # Changelog
 
+## v1.0.1 — 2026-06-10（🚀 真實 voice + keyword CTA：6/7-6/9 雙 mega-viral 實證）
+
+6/1-6/10 連續實戰打出兩篇 mega-viral，新增 R34（反 AI 腔）/ R35（keyword CTA）/ F26（作品集 reveal）/ F27（單品 giveaway）+ Cases 27-31。
+
+### 🏆 雙 mega-viral 實證
+
+| 篇 | 公式 | 觀眾 | 非追蹤 | 留言 |
+|---|---|---|---|---|
+| 6/7 F21「不是 ComfyUI」| R34+R35（DM 版）| 10,966 | 82.5% | 323 |
+| **6/9 F6b giveaway** | R34+R35-safe（公開 link）| **42,103** | **93.1%** | **959** 🏆 |
+
+→ 6/9 = 史上第三大觀眾 + **史上最高留言（959）** + 最高收益（$3.94）。
+
+### 🆕 R34 真實 voice（反 AI 腔，🚨 硬規則）
+
+有讀者說「像 AI 文」。關鍵診斷（用 Hao 真實貼文反查）：**元兇是「詞」不是「標點」**。
+- AI 腔元兇 = 抽象空詞（護城河/本質/真正的 X）+ staged 開場 + over-narrate + 過度工整
+- `──` 分隔符（5/22 broke 94.5% 用過）+ `！！！` hype（Day1 mega-viral 用過）= **proven 爆款裝置，不是 AI 腔**
+- 日常標點 `，、`，proven 公式裝置照公式用
+- **6/9 證明：R34 真實 voice 跟 F6b mega-viral 完全相容**
+
+### 🆕 R35 keyword CTA = broke 鐵粉圈引擎（🏆 最強 CTA）
+
+「留言『關鍵詞』」= 留言磁鐵：每個留言 5x 權重堆爆 → 演算法判爆點 → broke。
+- **公開 link 自助派發 = 最優預設**（精選留言，無 DM 天花板 + account-safe）：6/9 衝 959 留言零限制
+- DM 版有天花板：6/7 323 留言就觸發 FB 私訊限制（封號前兆）→ 改 F24 限制說明 + 公開 link
+- 絕不導 GitHub 正文（R25）
+
+### 🆕 公式 F26 / F27（giveaway 系列）
+
+- **F26 隱藏作品集釋出型**：「我私下還做了一堆東西」reveal + giveaway 測水溫
+- **F27 單品 spotlight giveaway**：系列接力單元（manifest 後一個個 drop），PWYW（輸入 0 元）+ 條件開源 + 必加 R35 keyword CTA
+
+### 📚 Cases 27-31
+
+作品集 reveal（35.2%）/ F21 mega（10,966）/ 串燒 Reel 對照（GitHub CTA flop）/ F24 限制說明（R35 天花板）/ F6b giveaway mega（42,103）/ POS 單品接力。
+
+### 規則 / 公式總數
+
+R1-R35（R9/R21/R22 廢除）/ F1-F27 / Mode C 9 變體。
+
+---
+
 ## v1.0.0 — 2026-05-31（🎉 月底 milestone：框架穩定，5 月完整實證）
 
 從 2026-04-21 Day 1 mega-viral 開始，**41 天 / 25 個 case / 32 條規則 / 4 個 Mode / 14 個 release** — 整套框架穩定，ship v1.0.0 標記。

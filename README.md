@@ -36,6 +36,8 @@
 
 > **v0.8.1 更新（2026-05-13）**：F19 排版精修 — v0.8 第一版誤把 F19 寫成 3 段空行（FB F6b 思維誤帶到 Thread），對照 Hao 3 篇真實爆款反向工程後修正為「**1 段不換行 / 連續逗號流 / 「！」最多 2 個 / 60-150 字**」。
 >
+> **🚀 v1.0.1（2026-06-10）真實 voice + keyword CTA**：新增 **R34 反 AI 腔**（元兇是抽象空詞不是標點 — `──`／`！！！` 是 proven 爆款裝置）+ **R35 keyword CTA broke 引擎** + **F26/F27 giveaway 系列**。雙 mega 實證：F21「不是 ComfyUI」R34+R35 版 **10,966 觀眾 / 82.5%**（vs 原版 1,058 = 10x）；F6b giveaway **42,103 觀眾 / 93.1% / 959 留言**（史上最高留言）。R34 真實 voice 跟 mega-viral 完全相容；R35「留言『關鍵詞』」公開 link 自助 = broke 無天花板 + account-safe。
+>
 > **🎉 v1.0.0（2026-05-31）月底 milestone**：41 天連續實戰 / 25 個 case / 32 條規則 / 4 個 Mode（A/B/C/Thread F19）/ 14 個 release。Line 群 800 → 4,568+ / Discord 6,930+ / FB 內容營利已啟動。框架穩定，後續 v1.x 補強不增 archetype。
 >
 > **v0.9.3 更新（2026-05-31）**：🌟 **F25 集體願景型 3 sub-variants + R32 反個人主義 framing**（5/26 manifest broke 39.7% 非追蹤 + 12 儲存 / 5/28 Line 5000 集體歸功 / 5/29 階段 review 集體 vision）。Mode C **完整 8 變體** 解鎖（F20-F25a/b/c），月內可配置 7-10 篇 viral 輪播。
